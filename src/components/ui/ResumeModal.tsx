@@ -42,7 +42,7 @@ export default function ResumeModal() {
               <h3 className="font-kanit font-medium text-lg tracking-wide text-[#D7E2EA]">Resume Preview</h3>
               <div className="flex items-center gap-3">
                 <a
-                  href="/Gursharan_Singh_CV.pdf"
+                  href="/Gursharan_SIngh_CV.pdf"
                   download
                   className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 text-[#D7E2EA] transition-colors text-sm font-medium"
                 >
@@ -61,7 +61,7 @@ export default function ResumeModal() {
             {/* Content (PDF iframe) */}
             <div className="flex-1 w-full bg-[#111]">
               <iframe
-                src="/Gursharan_Singh_CV.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                src="/Gursharan_SIngh_CV.pdf#toolbar=0&navpanes=0&scrollbar=0"
                 className="w-full h-full border-none"
                 title="Resume PDF"
               />
